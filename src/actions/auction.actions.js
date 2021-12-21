@@ -15,9 +15,7 @@ class AuctionActions extends BaseActions {
       dispatch(this.setValue('auctionsById', auctionsById));
 
     };
-
   }
-
 }
 
 export default new AuctionActions(auctionReducer);
